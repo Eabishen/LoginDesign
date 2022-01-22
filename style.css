@@ -28,7 +28,7 @@ section .imgBxs img {
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   z-index: 22;
   animation: scaler linear 2s infinite alternate;
 }
@@ -103,10 +103,10 @@ section .contentBxs .formBx .btnd:hover {
 
 @keyframes scaler {
   0% {
-    transform: scale(0.9);
+    transform: scale(1);
   }
   100% {
-    transform: scale(0.88);
+    transform: scale(0.98);
   }
 }
 
